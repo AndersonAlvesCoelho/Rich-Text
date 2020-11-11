@@ -21,14 +21,17 @@
 
 ### :floppy_disk: Instituições para visualizar o projeto   
 > as instituições citadas abaixo foram feita no windows 10
-##### 1º Git clone:
+##### 1º Node:
+Instala o [node](https://nodejs.org/en/) 
+
+##### 2º Git clone:
 
 ```bash
     #sleciona uma pasta para relizar a copia do projeto (recomendo coloca no C:\WorkSpace)
     git clone https://github.com/AndersonAlvesCoelho/Rich-Text.git
     cd Rich-Text
 ```
-##### 2º Subir as dependência & execute as construção necessarias do CKEditor 5:
+##### 3º Subir as dependência & execute as construção necessarias do CKEditor 5:
 
 ```bash
     cd ckeditor5-build-classic
@@ -37,7 +40,7 @@
     npm ruin build
 ```
 
-##### 3º Subir as dependência & startar o projeto:
+##### 4º Subir as dependência & startar o projeto:
 
 ```bash
     #para voltar ao diretório principal
