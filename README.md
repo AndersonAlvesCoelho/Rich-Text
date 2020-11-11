@@ -19,8 +19,8 @@
 - [ ] Guia de comandos;
 - [ ] Opção de exportação para pdf/word.
 
-> as intruições citas abaixo foram feita no windows 10
 ### :floppy_disk: Instituições para visualizar o projeto   
+> as instituições citadas abaixo foram feita no windows 10
 ##### 1º Git clone:
 
 ```bash
