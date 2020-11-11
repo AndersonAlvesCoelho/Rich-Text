@@ -11,13 +11,13 @@
 - [x] Criar aplicação com npm **create-react-app rich-text**
 - [x] Personalize e construa CKEditor 5 - [CKEditor 5 online builder](https://ckeditor.com/ckeditor-5/online-builder/);
 - [x] Menu simples como opção de selecionar modelos de documentos padrões, sendo esse modelos:
-    - [x] Ata de ruinão;
-    - [x] Listar Requisito;
-    - [x] Documento de Visão;
-    - [x] Documento de Regra de Negócio.
-- [x] Intuição sobre o modelo de documentação atual que estiver utilizando; 
-- [x] Guia de comandos;
-- [x] Opção de exportação para pdf/word.
+    - [ ] Ata de ruinão;
+    - [ ] Listar Requisito;
+    - [ ] Documento de Visão;
+    - [ ] Documento de Regra de Negócio.
+- [ ] Intuição sobre o modelo de documentação atual que estiver utilizando; 
+- [ ] Guia de comandos;
+- [ ] Opção de exportação para pdf/word.
 
 > as intruições citas abaixo foram feita no windows 10
 ### :floppy_disk: Instituições para visualizar o projeto   
