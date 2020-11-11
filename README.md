@@ -21,14 +21,14 @@
 
 > as intruições citas abaixo foram feita no windows 10
 ### :floppy_disk: Instituições para visualizar o projeto   
-###### 1º Git clone:
+##### 1º Git clone:
 
 ```bash
     #sleciona uma pasta para relizar a copia do projeto (recomendo coloca no C:\WorkSpace)
     git clone https://github.com/AndersonAlvesCoelho/Rich-Text.git
     cd Rich-Text
 ```
-###### 2º Subir as dependência & execute as construção necessarias do CKEditor 5:
+##### 2º Subir as dependência & execute as construção necessarias do CKEditor 5:
 
 ```bash
     cd ckeditor5-build-classic
@@ -37,7 +37,7 @@
     npm ruin build
 ```
 
-###### 3º Subir as dependência e startar o projeto:
+##### 3º Subir as dependência & startar o projeto:
 
 ```bash
     #para voltar ao diretório principal
