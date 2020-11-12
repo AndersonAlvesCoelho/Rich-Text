@@ -5,18 +5,17 @@
 - Essa aplicação tem como intuito, terinar e aplicar minhas habilidades com react.js.
 - O rick text dessa aplicação tem como objetivo de facilitar na hora dar o start na documnetação de um projeto.
 
-> Você pode visualizar o projeto aqui: [http://placid-word.surge.sh/](http://placid-word.surge.sh/)
+> Você pode visualizar o projeto aqui: [http://zesty-rabbits.surge.sh/](http://zesty-rabbits.surge.sh/)
 
 ### :page_with_curl: Requisito
 - [x] Criar aplicação com npm **create-react-app rich-text**
 - [x] Personalize e construa CKEditor 5 - [CKEditor 5 online builder](https://ckeditor.com/ckeditor-5/online-builder/);
 - [x] Menu simples como opção de selecionar modelos de documentos padrões, sendo esse modelos:
-    - [ ] Ata de ruinão;
-    - [ ] Listar Requisito;
-    - [ ] Documento de Visão;
-    - [ ] Documento de Regra de Negócio.
-- [ ] Intuição sobre o modelo de documentação atual que estiver utilizando; 
-- [ ] Guia de comandos;
+    - [x] Ata de ruinão;
+    - [x] Listar Requisito;
+    <!-- - [ ] Documento de Visão; -->
+    <!-- - [ ] Documento de Regra de Negócio. -->
+- [x] Instruções sobre o modelo de documentação atual que estiver utilizando; 
 - [ ] Opção de exportação para pdf/word.
 
 ### :floppy_disk: Instituições para visualizar o projeto   
