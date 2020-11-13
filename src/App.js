@@ -6,6 +6,10 @@ import {
   OverlayTrigger,
   Button,
   Popover,
+  ButtonToolbar,
+  ButtonGroup,
+  Accordion,
+  Card,
   Badge,
 } from "react-bootstrap";
 
@@ -28,7 +32,7 @@ function App(props) {
 
   const InfoModelo = () => (
     <OverlayTrigger trigger="click" placement="bottom" overlay={popover}>
-      <Button variant="success">
+      <Button variant="info">
         {modelo && "Informação sobre: " + modelo[2]}
       </Button>
     </OverlayTrigger>
@@ -38,24 +42,40 @@ function App(props) {
     <>
       <Header handleDadaModelo={(e) => setModelo(e)} />
 
-      <Container>
+      <Container fluid>
         <main>
           <div className="message"></div>
-          <Row className="mb-2 ">
-            <Col>{modelo && modelo !== " " ? <InfoModelo /> : null}</Col>
-            <p>
-              Limpar documento:{" "}
-              <Badge
-                type="button"
-                variant="secondary"
-                onClick={() => setModelo(" ")}
-              >
-                clean
-              </Badge>
-            </p>
-          </Row>
+
           <Row className="mb-5 ">
+            <Col xs lg="3" className="mb-2">
+              <Accordion defaultActiveKey="0">
+                <Card>
+                  <Card.Header> Documentos salvos </Card.Header>
+                  <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                    </Card.Body>
+                  </Accordion.Collapse>
+                </Card>
+              </Accordion>
+            </Col>
             <Col>
+              <Row className="mb-2">
+                <Col className="col-auto mr-auto">
+                  {modelo && modelo !== " " ? <InfoModelo /> : null}
+                </Col>
+                <Col className="col-auto">
+                  <ButtonToolbar aria-label="Toolbar with button groups justify-content-end">
+                    <ButtonGroup className="mr-2" aria-label="Second group">
+                      <Button variant="success">Salvar</Button>
+                    </ButtonGroup>
+                    <ButtonGroup aria-label="Third group">
+                      <Button variant="light" onClick={() => setModelo(" ")}>
+                        Limpar
+                      </Button>
+                    </ButtonGroup>
+                  </ButtonToolbar>
+                </Col>
+              </Row>
               <RechText typeModelo={modelo && modelo[0]} />
             </Col>
           </Row>
