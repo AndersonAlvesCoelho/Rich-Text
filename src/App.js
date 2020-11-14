@@ -186,7 +186,11 @@ function App(props) {
                           setErroName(false);
                         }}
                       />
-                      {erroName && (<p className="text-danger">Esse nome de documento ja existe!</p>)}
+                      {erroName && (
+                        <p className="text-danger">
+                          Esse nome de documento ja existe!
+                        </p>
+                      )}
                     </Col>
                     <Col className="col-auto mt-1">
                       <ButtonToolbar aria-label="Toolbar with button groups justify-content-end">
@@ -200,21 +204,17 @@ function App(props) {
                           </Button>
                         </ButtonGroup>
 
-                        <ButtonGroup className="mr-2" a>
-                          {keyDocAtual && (
-                            <Button
-                              type="button"
-                              variant="danger"
-                              onClick={() => handleDelete(keyDocAtual)}
-                            >
+                        {keyDocAtual ? (
+                          <ButtonGroup className="mr-2">
+                            <Button type="button" variant="danger" onClick={() => handleDelete(keyDocAtual)}>
                               {msg ? (
                                 <Spinner animation="border" size="sm" />
                               ) : (
                                 "Deletar"
                               )}
                             </Button>
-                          )}
-                        </ButtonGroup>
+                          </ButtonGroup>
+                        ) :  null}
 
                         <ButtonGroup>
                           <Button variant="light" onClick={() => handleClear()}>
