@@ -5,7 +5,7 @@
 - Essa aplicação tem como intuito, terinar e aplicar minhas habilidades com react.js.
 - O rick text dessa aplicação tem como objetivo de facilitar na hora dar o start na documnetação de um projeto.
 
-> Você pode visualizar o projeto aqui: [http://zesty-rabbits.surge.sh/](http://zesty-rabbits.surge.sh/)
+> Você pode visualizar o projeto aqui: [http://milky-skate.surge.sh/](http://milky-skate.surge.sh/)
 
 ### :page_with_curl: Requisito
 - [x] Criar aplicação com npm **create-react-app rich-text**
