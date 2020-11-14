@@ -1,41 +1,41 @@
 :root {
-	--ck-sample-base-spacing: 2em;
-	--ck-sample-color-white: #fff;
-	--ck-sample-color-green: #279863;
-	--ck-sample-color-blue: #1a9aef;
-	--ck-sample-container-width: 1285px;
-	--ck-sample-sidebar-width: 350px;
-	--ck-sample-editor-min-height: 400px;
+  --ck-sample-base-spacing: 2em;
+  --ck-sample-color-white: #fff;
+  --ck-sample-color-green: #279863;
+  --ck-sample-color-blue: #1a9aef;
+  --ck-sample-container-width: 1285px;
+  --ck-sample-sidebar-width: 350px;
+  --ck-sample-editor-min-height: 400px;
 }
 
-
+/* Style Green Bloco*/
 main .message {
-	padding: 0 0 var(--ck-sample-base-spacing);
-	background: var(--ck-sample-color-green);
-	color: var(--ck-sample-color-white);
+  padding: 0 0 var(--ck-sample-base-spacing);
+  background: var(--ck-sample-color-green);
+  color: var(--ck-sample-color-white);
 }
 
 main .message::after {
-	content: "";
-	z-index: -1;
-	display: block;
-	height: 10em;
-	width: 100%;
-	background: var(--ck-sample-color-green);
-	position: absolute;
-	left: 0;
+  content: "";
+  z-index: -1;
+  display: block;
+  height: 10em;
+  width: 100%;
+  background: var(--ck-sample-color-green);
+  position: absolute;
+  left: 0;
 }
 
 main .message h2 {
-	position: relative;
-	padding-top: 1em;
-	font-size: 2em;
+  position: relative;
+  padding-top: 1em;
+  font-size: 2em;
 }
 
 .centered {
-	/* Hide overlapping comments. */
-	overflow: hidden;
-	max-width: var(--ck-sample-container-width);
-	margin: 0 auto;
-	padding: 0 var(--ck-sample-base-spacing);
+  /* Hide overlapping comments. */
+  overflow: hidden;
+  max-width: var(--ck-sample-container-width);
+  margin: 0 auto;
+  padding: 0 var(--ck-sample-base-spacing);
 }

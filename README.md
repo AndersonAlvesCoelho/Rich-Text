@@ -17,7 +17,7 @@
     <!-- - [ ] Documento de Regra de Negócio. -->
 - [x] Instruções sobre o modelo de documentação atual que estiver utilizando; 
 - [ ] Opção de exportação para pdf/word.
-- [ ] Manter documentos utilizando localstorage.
+- [x] Manter documentos utilizando localstorage.
 
 ### :floppy_disk: Instituições para visualizar o projeto   
 > as instituições citadas abaixo foram feita no windows 10

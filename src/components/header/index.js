@@ -9,14 +9,23 @@ import RichTextImg from "../../assets/images/rich-text.png";
 function Header(props) {
   const { handleDadaModelo } = props;
 
-  //Selecionado o modelo do documento 
+  //Selecionado o modelo do documento
   const handleTypeModelo = (type) => {
-    handleDadaModelo('');
     if (type === "AtaReuniao") {
-      handleDadaModelo([AtaRuinao.doc, AtaRuinao.info, AtaRuinao.name, AtaRuinao.type]);
+      handleDadaModelo([
+        AtaRuinao.doc,
+        AtaRuinao.info,
+        AtaRuinao.name,
+        AtaRuinao.type,
+      ]);
     } else if (type === "ListarRequisito") {
-      handleDadaModelo([ListarRequisito.doc, ListarRequisito.info, ListarRequisito.name, ListarRequisito.type]);
-    } 
+      handleDadaModelo([
+        ListarRequisito.doc,
+        ListarRequisito.info,
+        ListarRequisito.name,
+        ListarRequisito.type,
+      ]);
+    }
   };
 
   return (
