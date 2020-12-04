@@ -19,8 +19,8 @@
 - [ ] Opção de exportação para pdf/word.
 - [x] Manter documentos utilizando localstorage.
 
-### :floppy_disk: Instituições para visualizar o projeto   
-> as instituições citadas abaixo foram feita no windows 10
+### :floppy_disk: Instruções para visualizar o projeto   
+> As instruções citadas abaixo foram feita no windows 10
 ##### 1º Node:
 Instala o [node](https://nodejs.org/en/) 
 
