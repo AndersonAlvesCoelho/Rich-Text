@@ -3,6 +3,7 @@
 
 <img  src="https://cdn.discordapp.com/attachments/779342878513954829/801226622334009374/unknown.png">
 ### :bulb: Objetivo
+
 - Essa aplicação tem como intuito, terinar e aplicar minhas habilidades com react.js.
 - O rick text dessa aplicação tem como objetivo de facilitar na hora dar o start na documnetação de um projeto.
 
