@@ -5,8 +5,8 @@
 
 ### :bulb: Objetivo
 
-- Essa aplicação tem como intuito, terinar e aplicar minhas habilidades com react.js.
-- O rick text dessa aplicação tem como objetivo de facilitar na hora dar o start na documnetação de um projeto.
+- Essa aplicação tem como intuito, treinr e aplicar minhas habilidades com react.js.
+- O rick text é um aplicação que tem como objetivo de facilitar na hora dar o start na documnetação de um projeto.
 
 > Você pode visualizar o projeto aqui: [http://brief-shelf.surge.sh/](http://brief-shelf.surge.sh/)
 
